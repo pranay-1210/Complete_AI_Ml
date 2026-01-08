@@ -21,4 +21,3 @@ for i in my_list:
         print(f"search_element found at index= {index}")
         break
     index += 1
-
