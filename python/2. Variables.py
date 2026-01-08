@@ -5,6 +5,7 @@ PI = 3.14
 print(name)
 print(age)
 print(PI)
+print(type(age))
 
 _name = "john"
 _age = 25
