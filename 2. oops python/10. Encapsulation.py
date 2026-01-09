@@ -28,7 +28,6 @@ print(acc2._account_number)  # Protected attribute, accessible, Output: 98765432
 class BankAccount:
     def __init__(self, account_number, balance):
         self.__account_number = account_number  # Private attribute
-        self.__balance = balance  # Private attribute
 
     def get_account_number(self):  # Getter method to access private attribute
         return self.__account_number
@@ -39,6 +38,6 @@ class BankAccount:
 acc3 = BankAccount("555555555", 3000)
 print(acc3.get_account_number())  # Public method, accessible, Output: 555555555 
 
-
+# Modifying private attribute using setter method
 acc3.set_account_number("777777777")
 print(acc3.get_account_number()) # Output: 777777777
