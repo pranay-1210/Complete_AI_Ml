@@ -17,3 +17,5 @@ This file contains my learning progress of Anaconda and Conda. I have learned ho
 7. conda env remove -n myenv
 
 8. conda env list
+
+Installed Jupyter Notebook and Jupyter Lab for working with data and will use this in future for my Machine Learning and Deep Learning Projects.
