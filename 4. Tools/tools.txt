@@ -1,0 +1,19 @@
+This file contains my learning progress of Anaconda and Conda. I have learned how to use Conda Prompt, create and manage environments, activate/deactivate them, and maintain notes of important Conda commands in text files.
+
+# Conda Commands:-
+
+1. conda --version
+
+2. conda create -n myenv
+
+3. conda activate myenv
+
+4. conda deactivate
+
+5. conda remove -n myenv --all
+
+6. conda info --envs
+
+7. conda env remove -n myenv
+
+8. conda env list
