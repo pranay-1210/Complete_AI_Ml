@@ -1,0 +1,11 @@
+{
+    "name": "Pranay",
+    "age": 30,
+    "city": "Darbhanga",
+    "is_student": false,
+    "courses": ["Math", "Science", "History"],
+    "address": {
+        "street": "Laheriasarai",
+        "zip": "846001"
+    }
+}

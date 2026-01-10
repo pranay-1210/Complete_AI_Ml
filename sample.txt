@@ -1,1 +1,0 @@
-This is a simple dummy text line for opening and writing to a file in Python.
