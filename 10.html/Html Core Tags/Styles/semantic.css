@@ -1,0 +1,22 @@
+header {
+    background-color:orangered;
+}
+
+main {
+    background-color:white;
+}
+
+#first_section {
+    color: rgba(255, 0, 0, 0.8);
+    background-color: #ffe600;
+
+}
+
+#second_section {
+    color: rgba(120, 0,0, 0.8);
+    background-color: mediumaquamarine;
+}
+
+#third_section {
+    background-color: lightcoral;
+}

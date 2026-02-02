@@ -1,0 +1,39 @@
+.box{
+    height: 75px;
+    width: 75px;
+    margin: 50px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all 3s;
+}
+
+.box1:hover{
+    background-color: red;
+    /* transform:rotate(720deg); */
+    /* transform:scale(2); */
+     /* transform:scalex(2); */
+    /* transform:scaley(2);  */
+     transform: translate(100px,100px);
+    /* transform: skew(-90deg); */
+
+}
+
+.box2:hover{
+    background-color:green;
+    transform:rotate(45deg);
+}
+
+.box3:hover{
+    background-color: blue;
+    transform:rotatex(90deg);
+}
+
+.box4:hover{
+    background-color: yellow;
+    transform:rotatey(45deg);
+}

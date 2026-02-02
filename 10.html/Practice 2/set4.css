@@ -1,0 +1,15 @@
+._text {
+    background-color: rgba(0, 200, 0, 0.2);
+    color: #aa7800;
+}
+
+
+.image_container {
+    height: 200px;
+    width: 200px;
+    background-image:  url("./download.png");
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}

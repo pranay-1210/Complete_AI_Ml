@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.my-box {
+    background-color: blue;
+    height: 30px;
+    width:60px;
+    padding: 5px;
+/*  padding: 5px 10px 15px 20px //shorthand for padding: */
+    margin: 10px;
+    border: 2px solid red;
+    border-radius: 400px;
+    box-sizing: content-box;
+
+
+}

@@ -1,0 +1,23 @@
+.my-link{
+    color: red ;
+    text-decoration: none;
+}
+
+.my-link:hover{  /* Pseudo Class* (False Class) */
+    color: green;
+
+}
+
+
+.my-link:active{ /* While Long Pressing the active class will show a different color */  
+    color: aqua;
+
+}
+
+input {
+    margin: 10px;
+}
+
+input:focus{
+    background-color: rgba(0, 0, 0, 0.486);
+}

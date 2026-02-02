@@ -1,0 +1,26 @@
+.box{
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 3s;
+    
+
+}
+
+.box:hover{
+    width: 200px;
+    background-color: red;
+}
+
+.box:active{
+    color: chartreuse;
+
+}

@@ -1,0 +1,19 @@
+.screen{
+    display: block;
+    background-color: aqua;
+}
+
+.print{
+    display: none;
+}
+
+@media print {
+    .screen {
+        display: none;
+    }
+
+    .print {
+        display: block;
+    }
+
+}

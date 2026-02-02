@@ -1,0 +1,22 @@
+/* .container p {
+    color: blue;
+} */
+
+.container > p {   /* the child selector targets only the immediate child */
+    color: blue;
+    font-size: 25px;
+}
+
+.container h1 + p {  /*Adjacent Sibling Selector*/
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+    text-align: right;
+
+}
+
+.container h1 ~ p {  /*General Sibling Selector*/
+    text-transform: uppercase;
+ 
+
+}

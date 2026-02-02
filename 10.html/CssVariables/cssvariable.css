@@ -1,0 +1,32 @@
+html{
+    --main-bg-color: purple;
+    --main-box-color: green;
+    --main-border-color: black;
+    --main-text-color: white;
+}
+
+.container{
+    background-color: var(--main-bg-color);
+    display:flex;
+    padding:10px;
+    border: 2px solid var(--main-border-color);
+    color: var(--main-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--main-border-color);
+    margin: 20px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-box-color);
+    color: var(--main-text-color);
+    
+
+}

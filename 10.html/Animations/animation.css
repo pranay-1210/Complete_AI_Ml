@@ -1,0 +1,41 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    box-sizing: border-box;
+    position: relative;
+
+    animation-name: Mern;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 6;
+    animation-direction:normal;
+}
+
+/* @keyframes Mern {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+} */
+
+@keyframes Mern {
+    from{
+        left: 0;
+    }
+    to{
+        left: 200px;
+
+    }
+    
+}
